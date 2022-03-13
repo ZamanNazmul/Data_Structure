@@ -13,7 +13,7 @@ void swap(int *x,int *y) // this funtion for swap minimum value and used pointer
 }
 
 
-void selectionSort(int arr[],int n)  // base function for iteration and compair 
+void Bubble_Sort(int arr[],int n)  // base function for iteration and compair 
 {int i,j;
     for( i=0 ;i<n-1; i++) //outer loop for iteration
     {
@@ -60,7 +60,7 @@ int main()
         cout<<arr[i]<<" ";
        }
 
-    selectionSort(arr,n);
+   Bubble_Sort(arr,n);
     cout<<"\nAfter Sorted array : "<<endl;
     printArray(arr,n);
 
