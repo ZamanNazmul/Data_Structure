@@ -1,6 +1,7 @@
-//Q:  Bubble  Sort 
-
 //NAZMUL ZAMAN-Bsc in (IT)
+//Q:  Bubble  Sort
+// YOU can use (flag) for less time complexity.bcz its help to stop loop when you got the sorted array  before complete n-1 iteration. 
+
 
 #include<bits/stdc++.h>
 using namespace std; 
