@@ -1,6 +1,3 @@
-//Q:  Merge  Sort 
-//NAZMUL ZAMAN-Bsc in (IT)
-
  #include<bits/stdc++.h>
 using namespace std;
 
@@ -36,8 +33,8 @@ void merge(int arr[],int l,int mid ,int r )
        else 
        {
            arr[k]=b[j];
-           k++,j++;  arr[k]=b[j];
-           k++,j++;
+           k++,j++; 
+            
        }
    }
    while(i<n1)
@@ -95,7 +92,7 @@ int main()
     cout<<arr[i]<<" ";
 
     }
-  mergeSort(arr, 0, n - 1);
+     mergeSort(arr, 0, n - 1);
 	cout << "\nSorted array: \n";
 	printArray(arr, n);
 	return 0;    
